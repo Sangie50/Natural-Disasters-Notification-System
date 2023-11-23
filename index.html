@@ -16,7 +16,9 @@
   <title>WebGL Earth - 3D digital globe for web and mobile devices</title>
 
   <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" type="text/css" href="idkk.css" />
   <script src="index.js"></script>
+  <script src="idkk.js"></script>
 
   <script>
     function popup(url,w,h) {
@@ -35,18 +37,23 @@
      <option value="osm">OpenStreetMap</option>
    </select>
    <div id="webglearthdiv"></div>
-
+   <button id="subscribe">Subscribe</button>
+   <button id="unsubscribe">Unubscribe</button>
+   <form><input type="text" name="emailId" id="emailId" label="Enter your email ID..." placeholder="Enter your email ID..." /></form>
+  
    <ul id="sidelinks">
      <li><a class="link jsapi" href="http://examples.webglearth.com/" target="_blank">Examples</a></li>
      <li><a class="link github" href="https://github.com/webglearth/webglearth2" target="_blank">GitHub</a></li>
      <li><a class="link maptiler" href="https://maptiler.com/cloud/" target="_blank">Maps API</a></li>
    </ul>
+   
    <ul id="share">
      <li><p>Share</p></li>
      <li><a class="link twitter" href="https://twitter.com/share?original_referer=http://www.webglearth.com/&amp;text=WebGL Earth - 3D digital globe for web and mobile devices" target="_blank" onclick="popup(this.href,450,257);return false">Tweet</a></li>
-<!---     <li><a class="link gplus" href="https://plus.google.com/share?url=http://www.webglearth.com/" target="_blank" onclick="popup(this.href,610,315);return false">Google+</a></li> -->
+     <li><a class="link gplus" href="https://plus.google.com/share?url=http://www.webglearth.com/" target="_blank" onclick="popup(this.href,610,315);return false">Google+</a></li>
      <li><a class="link facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://www.webglearth.com/" target="_blank" onclick="popup(this.href,645,353);return false">Facebook</a></li>
    </ul>
+     
    <a href="https://maptiler.com/" id="maptiler"><img src="images/maptiler-logo.png" alt="MapTiler logo"></a>
  </body>
 </html>

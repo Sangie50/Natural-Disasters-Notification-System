@@ -1,0 +1,21 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    z-index: 1;
+  }
+  
+
+#subscribe {position:absolute;top:150px;height:35px;right:110px;width:80px;z-index:1;border:none;}
+#unsubscribe {position:absolute;top:150px;height:35px;right:15px;width:87px;z-index:1;border:none;}
+#emailId {position:absolute;top:110px;height:35px;right:200px;width:300px;z-index:1;border:none;}
+
+#emailId {position:absolute;top:110px;height:25px;right:15px;width:167px;z-index:1;padding:4px 4px;border:none; background:rgba(255,255,255,0.15);border-radius: 5px;color:rgba(255,255,255,1);}
+#emailId::placeholder {color:rgba(255,255,255,0.5);}
